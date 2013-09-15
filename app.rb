@@ -1,5 +1,4 @@
 require 'thread'
-require 'pp'
 require 'ponder'
 require 'pi_piper'
 include PiPiper
