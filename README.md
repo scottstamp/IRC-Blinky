@@ -10,6 +10,7 @@ To run (on a bare Raspberry Pi w/ Rasbian):
 ```
 $ sudo apt-get install ruby1.9.1 ruby1.9.1-dev
 $ sudo gem install bundler
+$ git clone https://github.com/DarkStar851/IRC-Blinky.git
 $ cd irc-blinky
 $ sudo bundle install
 $ ## Keep in mind, GPIO requires root!
