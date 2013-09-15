@@ -43,7 +43,7 @@ end
 			end
 		end
 	elsif ed[:nick] == nick
-		@highlight_msg.pop
+		@highlight_msg.pop if not @highlight_msg.empty?
 	end
 end
 
